@@ -66,8 +66,9 @@ main {
   transform: translate(-50%, -50%);
 }
 
+
 .selecao-de-personagens .personagem-grande .nome:before {
-  height: 30px;
+  height: 15px;
   width: 100%;
   content: '';
   position: absolute;
@@ -78,7 +79,7 @@ main {
 .selecao-de-personagens .personagem-grande .nome h2 {
   color: var(--cor-padrao);
   font-family: 'command', sans-serif;
-  bottom: 0;
+  bottom: -15px;
   position: absolute;
   width: 100%;
   font-size: 27px;
